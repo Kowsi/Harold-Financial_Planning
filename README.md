@@ -12,7 +12,7 @@ We will help Harold complete the following tasks:
 
 1. [Budget Analysis with Plaid](#Budget-Analysis)
 2. [Retirement Planner](#Retirement-Planner)
-3. [Financial Report](#Financial-Report)
+3. [Retirement Portfolio Analysis](#Retirement-Analysis)
 
 - - -
 
