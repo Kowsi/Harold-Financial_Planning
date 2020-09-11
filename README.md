@@ -1,14 +1,14 @@
 # Financial Planner
 
-Implemented budgeting using Plaid API and the Monte Carlo Simulation for forcasting the Retirement Portfolio return using IEX Finance API
+Implemented budgeting using Plaid API and the Monte Carlo Simulation for forcasting the Retirement Portfolio return.
 
 ![Financial Planner](Images/financial-planner.png)
 
 ## Background
 
-The consumer division of Harold's company has decided to offer budgeting and financial planning services to customers. They want to build a report for customers that links to their banking and investment accounts and automatically refreshes the data and charts on login. However, some of the calculations are tricky, and Harold could really use some help connecting the accounts and simulating the retirement investment projections. Luckily, there are APIs available to obtain account transactions and fetch retirement portfolio prices.
+Here we are connecting the accounts and simulating the retirement investment projections. We use Plaid APIs to obtain account transactions and fetch retirement portfolio prices.
 
-We will help Harold complete the following tasks:
+Below are the analysis we are going to do:
 
 1. [Budget Analysis with Plaid](#Budget-Analysis)
 2. [Retirement Planner](#Retirement-Planner)
@@ -18,9 +18,9 @@ We will help Harold complete the following tasks:
 
 ### Files
 
-[Budget Starter Notebook](Starter_Code/account_summary.ipynb)
+[Budget Notebook](Starter_Code/account_summary.ipynb)
 
-[Retirement Planner Starter Notebook](Starter_Code/portfolio_planner.ipynb)
+[Retirement Planner Notebook](Starter_Code/portfolio_planner.ipynb)
 
 - - -
 
@@ -56,7 +56,7 @@ Below are the budget analysis report using the transaction details retrieved fro
 
 ### Retirement Planner
 
-Using the IEX API to fetch historical closing prices for a retirement portfolio using the `SPY` and `AGG` tickers to represent the 60% stocks (SPY) and 40% bonds (AGG) and then run Monte Carlo simulations to project the portfolio performance at 30 years. 
+Using the Plaid API to fetch historical closing prices for a retirement portfolio using the `SPY` and `AGG` tickers to represent the 60% stocks (SPY) and 40% bonds (AGG) and then run Monte Carlo simulations to project the portfolio performance at 30 years. 
 
 
 #### Monte Carlo Simulation
