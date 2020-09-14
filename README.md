@@ -6,7 +6,7 @@ Implemented budgeting using Plaid API and the Monte Carlo Simulation for forcast
 
 ## Background
 
-Here we are connecting the accounts and simulating the retirement investment projections. We use Plaid APIs to obtain account transactions and fetch retirement portfolio prices.
+Here we are connecting the accounts and simulating the retirement investment projections using the sample transaction data from Plaid API. We use Plaid APIs to obtain account transactions and fetch retirement portfolio prices.
 
 Below are the analysis we are going to do:
 
@@ -26,7 +26,7 @@ Below are the analysis we are going to do:
 
 ### Budget Analysis
 
-Below are the budget analysis report using the transaction details retrieved from the Plaid API.
+Below are the budget analysis report using the sample transaction details retrieved from the Plaid API.
 
 1. Income Analysis Report using Plaid
 
